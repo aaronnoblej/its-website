@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+textarea:focus {
+  color: #000;
+}
+/* Container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  background-color: #FFFFFF;
+}
+/* Logo */
+logo {
+  width: 100%;
+  padding: 10px;
+  background-color: #fdd881;
+  display: block;
+}
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #fdd881;
+}
+li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #666666;
+  border-bottom: 1px solid #fee8b4;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #fee8b4;
+  color: #8c8c8c;
+}
+/* Content */
+content {}
+/* Footer */
+footer {
+  display: inline-block;
+  width: 100%;
+}
+.copyright {
+  text-align: left;
+  padding: 20px;
+  background-color: #fdd881;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+}
+
+.pholder {
+  font-size: 10px;
+}
+
+th {
+  background-color: #930C30;
+  border: 1px solid black;
+  color: #EEA416;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  background-color: #FFF;
+  border: 1px solid black;
+}
+.wo:hover td {
+  background-color: #d3d3d3;
+  color: #000;
+  cursor: pointer;
+}
+.highlight {
+  color: #5340ff;
+}
+#activeTable, #resultTable {
+  max-height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}

@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* Body */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fffef5;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-style: normal;
+  font-weight: 200;
+}
+/* Container */
+.container {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #717070;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  background-color: #fffef5;
+}
+/* Navigation */
+header {
+  width: 100%;
+  height: 5%;
+  background-color: #930C30;
+  border-bottom: 1px solid #FFF;
+}
+.logo {
+  display: inline-block;
+  color: #eea904;
+  background-color: #930C30;
+  font-weight: bold;
+  text-align: undefined;
+  float: left;
+  margin-top: 15px;
+  margin-left: 25px;
+  letter-spacing: 4px;
+}
+nav {
+  background-color: #930C30;
+  display: inline-block;
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-right: 25px;
+}
+header nav ul {
+  list-style: none;
+  float: right;
+}
+nav ul li {
+  float: left;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 25px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: all 0.3s linear;
+}
+#welcome_message {
+  color: #eea904;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 25px;
+  letter-spacing: 2px;
+  display: inline-flex;
+}
+ul li a {
+  color: #eea904;
+  text-decoration: none;
+}
+ul li:hover a {
+  color: #B3B3B3;
+}
+#notice a {
+  color: #930C30;
+  text-decoration: none;
+}
+#notice:hover a {
+  color: #B3B3B3;
+}
+.hero_header {
+  color: #FFF;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  letter-spacing: 4px;
+}
+/* Hero Section */
+.hero {
+  background-image: url("../images/conco-oldmain.jpg");
+  background-size: cover;
+  background-color: #930C30;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* content Section */
+.content {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fffef5;
+  text-align: center;
+  min-height: 800px;
+}
+.text_column {
+  width: 80%;
+  text-align: justify;
+  line-height: 25px;
+  float: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #717070;
+  font-weight: bold;
+  display: inline-block;
+}
+.content a {
+  color: #eea904;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links {
+  list-style: none;
+  font-weight: bold;
+}
+.links li a {
+  color: #eea904;
+  text-decoration: none;
+  line-height: 25px;
+}
+.links li:hover a {
+  color: #B3B3B3;
+}
+.content h1 {
+  font-weight: bolder;
+  color: #717070;
+}
+.content h2 {
+  font-weight: normal;
+  color: #717070;
+}
+.note {
+  color: #930C30;
+}
+/* contact form */
+.title {
+  color: #717070;
+  font-weight: bold;
+  padding-left: 14px;
+}
+.form {
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #717070;
+}
+.form-fields {
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #717070;
+  width: 80%;
+  font-weight: bold;
+}
+label {
+  float: left;
+}
+#catagory {
+  color: #717070;
+}
+#topic {
+  color: #717070;
+}
+#summary {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+input[type=text], select, textarea, [type=tel], [type=email], [type=password], [type=number] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=radio] {
+  float: left;
+}
+input[type=submit] {
+  background-color: #930C30;
+  color: #717070;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+input[type=submit]:hover {
+  background-color: #eea904;
+  opacity: 0.9;
+}
+::placeholder {
+  opacity: 0.5;
+}
+/* Footer */
+footer {
+  display: inline-block;
+  width: 100%;
+}
+.copyright {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #930C30;
+  color: #eea904;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+}
+footer a {
+  color: #eea904;
+  text-decoration: none;
+}
+
+button {
+  background-color: #930C30;
+  color: #717070;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+button:hover {
+  background-color: #eea904;
+  opacity: 0.9;
+}
+
+.only-mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+#username_login, #password_login {
+  width: 50%;
+}
+@media screen and (max-width: 849px) {
+  .desktop {
+    display: none;
+  }
+  .only-mobile {
+    display: block;
+  }
+}
